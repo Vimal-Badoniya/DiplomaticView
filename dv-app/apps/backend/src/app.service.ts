@@ -7,10 +7,4 @@ export class AppService {
     return 'Hello World!!';
   }
   constructor(@Inject(PG_CONNECTION) private conn: any) {}
-
-  async getDbTime() {
-    // This is RAW SQL. No ORM magic.
-    const res = await this.conn.query('SELECT NOW()');
-    return res.rows[0];
-  }
 }
