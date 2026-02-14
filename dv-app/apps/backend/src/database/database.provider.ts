@@ -5,6 +5,7 @@ export const PG_CONNECTION = 'PG_CONNECTION';
 export const databaseProvider = {
   provide: PG_CONNECTION,
   useValue: new Pool({
+    connectionString: process.env.DATABASE_URL,
     user: 'admin',
     host: 'localhost',
     database: 'diplomatic_view',

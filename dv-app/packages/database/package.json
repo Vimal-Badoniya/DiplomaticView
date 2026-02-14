@@ -7,6 +7,10 @@
     "pg": "^8.11.0"
   },
   "devDependencies": {
-    "@types/pg": "^8.11.0"
+    "@types/pg": "^8.11.0",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "seed:articles": "ts-node --project tsconfig.json seeds/articles.seed.ts"
   }
 }
