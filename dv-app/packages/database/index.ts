@@ -6,7 +6,9 @@ export const pool = new Pool({
   password: process.env.DB_PASSWORD || "password123",
   database: process.env.DB_NAME || "diplomatic_view",
   port: 5432,
-  connectionString: process.env.DATABASE_URL,
+  // connectionString: process.env.DATABASE_URL,
+  connectionString: process.env.NEON_DB_URL,
+  ssl: true,
 });
 
 // A wrapper to help you log queries while learning

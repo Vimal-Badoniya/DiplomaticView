@@ -22,10 +22,10 @@ async function seedArticles() {
     )
     VALUES
     (
-      'art_seed_1',
-      'iran-us-oil-impact',
-      'Iran–US Tensions and Oil Markets',
-      'Why geopolitics still moves crude prices',
+      'art_seed_1_3',
+      'iran-us-oil-impact-on-india',
+      'Iran–US Tensions and Oil Markets of the world',
+      'Why geopolitics still moves crude prices up/down',
       'https://example.com/oil.jpg',
       ARRAY['Geopolitics', 'Energy'],
       ARRAY['Iran', 'USA', 'Oil'],
@@ -34,20 +34,6 @@ async function seedArticles() {
       'published',
       now(),
       6
-    ),
-    (
-      'art_seed_2',
-      'ai-and-global-diplomacy',
-      'AI and Global Diplomacy',
-      'How artificial intelligence is reshaping foreign policy',
-      'https://example.com/ai.jpg',
-      ARRAY['Technology', 'Diplomacy'],
-      ARRAY['AI', 'Foreign Policy'],
-      '{"blocks":[{"type":"paragraph","text":"AI is becoming a new tool of statecraft and diplomacy."}]}',
-      '{"name":"Tech Desk"}',
-      'published',
-      now(),
-      5
     )
     ON CONFLICT (id) DO NOTHING;
     `,
