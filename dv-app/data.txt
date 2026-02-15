@@ -1,0 +1,1 @@
+1. instead of fetching full article for the list, pull the required fields only to make the api call faster

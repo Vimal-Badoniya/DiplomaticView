@@ -11,6 +11,8 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "seed:articles": "ts-node --project tsconfig.json seeds/articles.seed.ts"
+    "seed:articles": "ts-node --project tsconfig.json seeds/articles.seed.ts",
+    "db:migrate": "ts-node --project tsconfig.json scripts/migrationScript.ts",
+    "neondb:migrate": "psql $NEON_DB_URL -f migrations/001_create_articles.sql"
   }
 }

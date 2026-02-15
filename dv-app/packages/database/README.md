@@ -17,5 +17,6 @@ This package owns all PostgreSQL-related infrastructure.
 ## How to apply migrations (local)
 
 ```bash
-psql $DATABASE_URL -f packages/database/migrations/001_create_articles.sql
+# psql $DATABASE_URL -f packages/database/migrations/001_create_articles.sql
+psql $NEON_DB_URL -f packages/database/migrations/001_create_articles.sql
 ```
