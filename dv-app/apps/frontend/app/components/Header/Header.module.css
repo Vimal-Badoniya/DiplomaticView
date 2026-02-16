@@ -1,0 +1,17 @@
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -10,3 +10,5 @@ https://console.neon.tech
 
 4. Use cloudinary for assests public url
 https://console.cloudinary.com
+
+5. Title of the article should be atleast 70-80 characters long

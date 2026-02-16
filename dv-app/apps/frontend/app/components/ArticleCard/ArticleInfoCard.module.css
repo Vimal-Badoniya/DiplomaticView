@@ -1,0 +1,26 @@
+.articleInfoImg {
+  border-radius: 12px;
+}
+
+.articleImgWrapper {
+  position: relative;
+  width: 25%;
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 144px;
+  max-height: 144px;
+  border-radius: 8px;
+}
+
+.infoCardWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--text-muted);
+  padding: 10px 4px;
+}
+
+.articleTitle {
+  width: 75%;
+}
