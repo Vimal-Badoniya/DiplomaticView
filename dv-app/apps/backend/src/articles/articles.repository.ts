@@ -10,8 +10,8 @@ export class ArticlesRepository {
         id,
         slug,
         title,
-        subtitle,
         cover_img_url,
+        cover_img_alt,
         published_at,
         reading_time_minutes
       FROM articles
