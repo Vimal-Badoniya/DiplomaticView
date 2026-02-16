@@ -1,1 +1,12 @@
 1. instead of fetching full article for the list, pull the required fields only to make the api call faster
+
+2. User avif image format for minimum size and maximum quality
+https://cloudconvert.com/webp-to-avif
+Convert the image to webp first - Reduced file size than jpg
+Then again convert it to avif
+
+3. Use neon tech for Cloud DB
+https://console.neon.tech
+
+4. Use cloudinary for assests public url
+https://console.cloudinary.com
