@@ -1,0 +1,12 @@
+.navWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 16px;
+  list-style: none;
+}
+
+.activeTab {
+  font-weight: bold;
+  color: var(--highlight-color);
+}
