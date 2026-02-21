@@ -13,7 +13,8 @@ export class ArticlesRepository {
         cover_img_url,
         cover_img_alt,
         published_at,
-        reading_time_minutes
+        reading_time_minutes,
+        subtitle
       FROM articles
       WHERE status = 'published'
         AND deleted_at IS NULL
@@ -36,7 +37,10 @@ export class ArticlesRepository {
         content,
         author,
         published_at,
-        reading_time_minutes
+        reading_time_minutes,
+        tags,
+        categories,
+        locations
       FROM articles
       WHERE slug = $1
         AND status = 'published'
