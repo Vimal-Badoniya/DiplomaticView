@@ -4,6 +4,7 @@
   justify-content: left;
   gap: 16px;
   list-style: none;
+  height: 20px;
 }
 
 .activeTab {
