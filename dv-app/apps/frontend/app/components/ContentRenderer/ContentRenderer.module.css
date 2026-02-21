@@ -1,0 +1,19 @@
+.imageWrapper {
+  position: relative;
+  max-width: 768px;
+  aspect-ratio: 3 / 2;
+  margin: 14px 24px;
+}
+
+.para {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 14px 0;
+}
+
+.listContainer {
+  margin: 14px 0;
+  padding: revert;
+  font-size: 18px;
+  line-height: 24px;
+}
