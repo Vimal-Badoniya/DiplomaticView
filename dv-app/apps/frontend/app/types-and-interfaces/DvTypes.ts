@@ -13,4 +13,7 @@ export interface IArticleInfo {
   subtitle: string;
   title: string;
   cover_img_alt: string;
+  tags?: string[];
+  categories?: string[];
+  locations?: string[];
 }

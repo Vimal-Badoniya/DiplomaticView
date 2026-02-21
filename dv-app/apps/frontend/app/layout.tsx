@@ -27,15 +27,17 @@ export default function RootLayout({
     //header-nav-main-footer
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <header style={{ padding: "12px 12px 6px", boxShadow: "0 0 2px 0" }}>
+        <header className="header">
           <Header />
         </header>
 
-        <nav style={{ padding: "8px 12px", boxShadow: "0 0 2px 0" }}>
+        <nav className="navBar">
           <NavigationBar />
         </nav>
 
-        <main style={{ padding: "0 12px" }}>{children}</main>
+        <main style={{ padding: "10px 12px" }} className="mainContent">
+          {children}
+        </main>
         <footer style={{ padding: "0 12px" }}></footer>
       </body>
     </html>

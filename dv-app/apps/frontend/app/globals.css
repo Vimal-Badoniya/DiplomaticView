@@ -73,6 +73,35 @@ h6 {
     "Segoe UI Symbol";
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 768px;
+  background: var(--background);
+  height: 60px;
+  padding: 10px 12px;
+  border-bottom: 0.5px solid var(--text-muted);
+  z-index: 1;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 768px;
+  background: var(--background);
+  height: 40px;
+  margin-top: 60px;
+  padding: 10px 12px;
+  border-bottom: 0.5px solid var(--text-muted);
+  z-index: 1;
+}
+
+.mainContent {
+  margin-top: 100px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -1,0 +1,40 @@
+.coverImgWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 768px;
+  aspect-ratio: 3/2;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.articleInfo {
+  font-size: 14px;
+  color: var(--text-secondary);
+  padding: 8px 0;
+}
+
+.articleTitle {
+  margin: 8px 0 0;
+  font-family: var(--roboto-font);
+  min-height: 60px;
+  color: var(--highlight-color);
+  line-height: 30px;
+}
+
+.articleSubTitle {
+  font-size: 18px;
+  color: var(--text-secondary);
+  font-family: var(--georgia-font);
+  font-style: italic;
+  line-height: 24px;
+}
+
+@media (min-width: 768px) {
+  .articleTitle {
+    font-size: 26px;
+  }
+
+  .articleInfo {
+    font-size: 16px;
+  }
+}
