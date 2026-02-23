@@ -15,7 +15,7 @@ const Header = () => {
         <div>DIPLOMATIC VIEW</div>
       </div>
       <div className={styles.rightSection}>
-        <Search />
+        {/* <Search /> */}
         <Menu />
       </div>
     </div>

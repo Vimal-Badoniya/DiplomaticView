@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
+import Footer from "./components/Footer/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,7 +39,9 @@ export default function RootLayout({
         <main style={{ padding: "10px 12px" }} className="mainContent">
           {children}
         </main>
-        <footer style={{ padding: "0 12px" }}></footer>
+        <footer style={{ padding: "0 12px" }}>
+          <Footer />
+        </footer>
       </body>
     </html>
   );
