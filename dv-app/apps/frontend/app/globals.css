@@ -7,6 +7,7 @@
   --text-secondary: #a1a6af;
   --text-muted: #6b7280;
   --purple-text: #663399;
+  --math-font: math, system-ui, sans-serif;
   --georgia-font: Georgia, Times, "Times New Roman", serif;
   --knowledge-regular-font: knowledge-regular, Arial, sans-serif;
   --roboto-font: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -32,6 +33,7 @@ body {
   max-width: 768px;
   margin: auto;
   font-family: var(--roboto-font);
+  letter-spacing: 1px;
 }
 
 * {
@@ -52,6 +54,11 @@ h4,
 h5,
 h6 {
   font-weight: 400;
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 .imgDark {
@@ -100,6 +107,14 @@ h6 {
 
 .mainContent {
   margin-top: 100px;
+}
+
+.comingSoon {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--highlight-color);
 }
 
 @media (prefers-color-scheme: dark) {
