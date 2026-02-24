@@ -34,6 +34,7 @@ body {
   margin: auto;
   font-family: var(--roboto-font);
   letter-spacing: 1px;
+  text-wrap: balance;
 }
 
 * {
