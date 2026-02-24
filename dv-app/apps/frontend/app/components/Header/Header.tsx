@@ -12,11 +12,11 @@ const Header = () => {
           width={40}
           height={40}
         />
-        <div>DIPLOMATIC VIEW</div>
+        <div className={styles.title}>DIPLOMATIC VIEW</div>
       </div>
       <div className={styles.rightSection}>
         {/* <Search /> */}
-        <Menu />
+        {/* <Menu /> */}
       </div>
     </div>
   );

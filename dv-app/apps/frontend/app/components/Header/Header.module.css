@@ -1,18 +1,24 @@
 .headerWrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   height: 40px;
 }
 
 .leftSection {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 20px;
 }
 
 .rightSection {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.title {
+  letter-spacing: 6px;
+  font-weight: 600;
+  color: red;
 }
